@@ -1,0 +1,3 @@
+<xq:service xmlns:xq="http://www.sonicsw.com/sonicxq" name="StringOpsServiceInstance" xsi:schemaLocation="http://www.sonicsw.com/sonicxq file:///opt/aurea/sonic/ESB10.0/schema/service.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type_ref="StringOpsService">
+  <xq:entry_ref>StringOpsServiceInstance.Entry</xq:entry_ref>
+</xq:service>

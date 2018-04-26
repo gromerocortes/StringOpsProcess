@@ -1,0 +1,9 @@
+<xq:endpoint xmlns:xq="http://www.sonicsw.com/sonicxq" connection_ref="jms_defaultConnection" name="StringOpsServiceInstance.Entry" xsi:schemaLocation="http://www.sonicsw.com/sonicxq file:///opt/aurea/sonic/ESB10.0/schema/endpoint.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type_ref="JMSType" qualityOfService="BEST_EFFORT">
+  <xq:params>
+    <xq:stringParam name="concurrentDurableSubscriber">false</xq:stringParam>
+    <xq:stringParam name="destination">StringOpsServiceInstance.Entry</xq:stringParam>
+    <xq:stringParam name="jmsPriority">4</xq:stringParam>
+    <xq:stringParam name="priority">4</xq:stringParam>
+    <xq:stringParam name="type">TOPIC</xq:stringParam>
+  </xq:params>
+</xq:endpoint>
