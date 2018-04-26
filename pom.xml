@@ -53,4 +53,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.aurea.cxmessenger.example</groupId>
+			<artifactId>StringOpsService</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<type>esbstyp</type>
+		</dependency>
+	</dependencies>
 </project>
